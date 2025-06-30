@@ -1,0 +1,171 @@
+{
+  "job_id": "b15e03fc-11ee-4ac6-9e42-3ee3882cf6d7",
+  "job_description": "Software Engineer, ML Research at Windsurf (Forbes AI 50 company) - \n        Building AI-powered developer tools. Looking for someone to train LLMs for code generation, \n        $140-300k + equity in Mountain View. Required: PhD in CS/ML, experience with large neural networks, \n        Python expertise, research background.",
+  "search_query_used": "Software Engineer LLM PhD Python Mountain View",
+  "candidates_found": 10,
+  "top_candidates": [
+    {
+      "name": "Victor Dibia, PhD",
+      "linkedin_url": "https://www.linkedin.com/in/dibiavictor",
+      "fit_score": 7.8,
+      "score_breakdown": {
+        "education": 9.0,
+        "trajectory": 8.0,
+        "company": 9.0,
+        "skills": 8.0,
+        "location": 8.0,
+        "tenure": 3.0
+      },
+      "reasoning": "Victor's PhD from Carnegie Mellon and experience at Microsoft Research (a top AI company) significantly boosts his education and company scores. His work on developer tools involving LLMs at Microsoft aligns well with the job description, resulting in a high skills match.  While his tenure at each role is unclear, his career trajectory shows clear progression.  The location score is based on the assumption he is willing to relocate for this opportunity. The overall fit score reflects a strong candidate, though more details on his experience with large neural networks would improve the confidence score.",
+      "confidence_score": 0.7,
+      "outreach_message": "Dear Victor, impressed by your work on AutoGen and AutoGen Studio at Microsoft Research, directly relevant to the Software Engineer, ML Research role at Windsurf.  Your experience building AI-powered developer tools aligns perfectly with our need to train LLMs for code generation.  Would you be open to discussing this opportunity?"
+    },
+    {
+      "name": "Konstantinos Georgiou",
+      "linkedin_url": "https://www.linkedin.com/in/gkos",
+      "fit_score": 7.2,
+      "score_breakdown": {
+        "education": 7.0,
+        "trajectory": 6.0,
+        "company": 7.0,
+        "skills": 8.0,
+        "location": 8.0,
+        "tenure": 6.0
+      },
+      "reasoning": "Konstantinos's profile demonstrates a strong foundation in ML research, particularly in the context of large neural networks.  His experience at Amazon, while not explicitly mentioning LLMs, showcases significant experience with self-supervised learning, model optimization, and improving model robustness and interpretability \u2013 all highly relevant to the Software Engineer, ML Research role. His research on LLM security is a significant positive. The lack of explicit PhD completion and limited tenure at each role slightly lowers the score.  The location is not explicitly stated but his current role at Amazon suggests a possibility of being in the US, which is a positive.",
+      "confidence_score": 0.7,
+      "outreach_message": "Hi Konstantinos, I came across your impressive work on LLM security and your experience at Amazon, which aligns well with the Software Engineer, ML Research position at Windsurf (a Forbes AI 50 company).  We're building AI-powered developer tools, and your expertise in large neural networks would be a valuable asset.  Would you be open to a brief chat?"
+    },
+    {
+      "name": "Aseem Baranwal",
+      "linkedin_url": "https://www.linkedin.com/in/aseembaranwal",
+      "fit_score": 6.8,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 6.0,
+        "company": 9.0,
+        "skills": 7.0,
+        "location": 8.0,
+        "tenure": 6.0
+      },
+      "reasoning": "Aseem's profile shows experience at Google, a top AI company, contributing positively to the 'company' score.  His experience developing an agentic framework that converts natural language queries into Python code demonstrates relevant skills, though the description lacks detail on the scale and complexity of the models used, resulting in a moderate 'skills' score. The education section is incomplete, preventing a higher score. His tenure at Google is relatively short, impacting the 'tenure' score.  The location is not explicitly stated but his work at Google suggests a likelihood of being in the Bay Area, hence a higher location score.  Career trajectory shows steady growth, but more information is needed for a higher score.",
+      "confidence_score": 0.6,
+      "outreach_message": "Hi Aseem, I'm reaching out regarding the Software Engineer, ML Research position at Windsurf. Your experience at Google developing an agentic framework for natural language processing aligns well with our need to train LLMs for code generation.  I'd love to discuss how your skills could contribute to our team."
+    },
+    {
+      "name": "Rahman Heidarykiany, Ph.D., MSc (x2), PMP",
+      "linkedin_url": "https://www.linkedin.com/in/rahman-heidarykiany-ph-d-msc-x2-pmp-156271b9",
+      "fit_score": 6.8,
+      "score_breakdown": {
+        "education": 7.0,
+        "trajectory": 6.0,
+        "company": 5.0,
+        "skills": 7.5,
+        "location": 0.0,
+        "tenure": 0.0
+      },
+      "reasoning": "Rahman's PhD and experience in ML, particularly his work on Generative AI and LLMs, align well with the job requirements.  However, the provided profile lacks specifics on company names and tenure, making it difficult to assess career trajectory and company relevance fully. His experience with large neural networks is implied but not explicitly stated.  The location is unknown, and tenure is unquantifiable from the provided data.  His skills in Python and experience with various ML frameworks are strong assets.",
+      "confidence_score": 0.6,
+      "outreach_message": "Dear Rahman, your experience building Generative AI models, as highlighted in your profile's description of the ADC/HPE/NVIDIA project, caught my attention.  Your skills and background strongly align with the Software Engineer, ML Research role at Windsurf, focused on training LLMs for code generation.  Would you be open to discussing this opportunity further?"
+    },
+    {
+      "name": "Vamsidhar Juvvigunta",
+      "linkedin_url": "https://www.linkedin.com/in/vamsidharjuvvigunta",
+      "fit_score": 6.8,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 6.0,
+        "company": 7.0,
+        "skills": 8.0,
+        "location": 8.0,
+        "tenure": 6.0
+      },
+      "reasoning": "Vamsidhar's profile shows experience with LLMs and related technologies, scoring well in skills.  His experience at various companies, while not top-tier AI companies, demonstrates relevant experience, resulting in a moderate company score. The career trajectory shows some progression but lacks clear upward mobility.  Education score is moderate due to the lack of clarity regarding the degree and institution. Location is favorable, and tenure is acceptable. Overall, a good candidate but lacks a PhD and experience with large-scale production LLM training.",
+      "confidence_score": 0.7,
+      "outreach_message": "Hi Vamsidhar, I'm reaching out regarding the Software Engineer, ML Research role at Windsurf. Your experience in developing text-to-comics technology using LLMs and NLP aligns well with our need to train LLMs for code generation.  Would you be open to discussing this opportunity further?"
+    },
+    {
+      "name": "Md Mushfiqur (Muhamamd) Rahman",
+      "linkedin_url": "https://www.linkedin.com/in/mushfiqur11",
+      "fit_score": 6.5,
+      "score_breakdown": {
+        "education": 6.0,
+        "trajectory": 6.0,
+        "company": 5.0,
+        "skills": 7.0,
+        "location": 0.0,
+        "tenure": 6.0
+      },
+      "reasoning": "The candidate's profile shows a PhD pursuit, suggesting strong educational background (6/10).  His experience as a Graduate Research Assistant demonstrates a steady career trajectory (6/10). However, company relevance is moderate (5/10) due to a lack of explicit experience at top tech companies.  His research in NLP and LLMs aligns well with the job description's requirements, earning a higher skills score (7/10). Location information is missing (0/10).  Tenure is moderate based on the provided information (6/10).",
+      "confidence_score": 0.6,
+      "outreach_message": "Dear Md Mushfiqur, I'm reaching out regarding the Software Engineer, ML Research position at Windsurf. Your research on NLP, particularly your work on LLMs, aligns well with our focus on building AI-powered developer tools.  I'd love to discuss how your experience could contribute to our team."
+    },
+    {
+      "name": "Sally Liu",
+      "linkedin_url": "https://www.linkedin.com/in/shisliu",
+      "fit_score": 6.5,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 6.0,
+        "company": 7.0,
+        "skills": 7.0,
+        "location": 8.0,
+        "tenure": 3.0
+      },
+      "reasoning": "Sally's background shows experience in applied machine learning, with roles at LinkedIn and Kumo.  Her experience with GTM and buyer-intent models suggests familiarity with practical applications of ML, although the details are limited.  The lack of a PhD significantly impacts the education score. LinkedIn and Kumo are relevant companies, boosting the company score.  Her experience with LLM applications is a positive sign, but more information is needed to assess the depth of her expertise in training LLMs.  The tenure score is low due to short tenures listed.  Assuming she is in the Bay Area, the location score is high.",
+      "confidence_score": 0.6,
+      "outreach_message": "Hi Sally, I'm reaching out regarding the Software Engineer, ML Research role at Windsurf. Your experience developing machine learning models at LinkedIn, particularly those related to LLM applications, aligns well with our need for expertise in training LLMs for code generation.  Would you be open to discussing this opportunity further?"
+    },
+    {
+      "name": "Nafiul Rashid, Ph.D.",
+      "linkedin_url": "https://www.linkedin.com/in/nafiul-rashid-ph-d-b53039aa",
+      "fit_score": 6.2,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 6.0,
+        "company": 7.0,
+        "skills": 7.0,
+        "location": 8.0,
+        "tenure": 3.0
+      },
+      "reasoning": "The candidate's profile lacks detailed information on their education, making it difficult to assess the quality of their institution.  Their career trajectory shows some progression, but the provided experience descriptions are brief and lack specifics.  Working at Samsung Research America is a positive indicator for the \"Company Relevance\" score. The experience in developing healthcare applications using wearable technology shows some overlap with ML, but doesn't directly match the requirement of training LLMs for code generation.  The location is in the US, which is favorable.  Tenure is low based on the short duration listed for the current role.  Overall, the candidate shows some promise but requires further investigation to assess their full potential for the role.",
+      "confidence_score": 0.6,
+      "outreach_message": "Dear Nafiul, I'm reaching out regarding the Software Engineer, ML Research position at Windsurf. Your experience at Samsung Research America developing GenAI-enabled health applications aligns well with our focus on AI-powered developer tools.  Your background in developing novel algorithms could be highly valuable to our team working on LLM training for code generation.  Would you be open to discussing this opportunity further?"
+    },
+    {
+      "name": "Daniel Chong",
+      "linkedin_url": "https://www.linkedin.com/in/danjchong",
+      "fit_score": 6.0,
+      "score_breakdown": {
+        "education": 7.0,
+        "trajectory": 5.0,
+        "company": 5.0,
+        "skills": 7.0,
+        "location": 8.0,
+        "tenure": 3.0
+      },
+      "reasoning": "Daniel is currently pursuing a PhD at Cornell, a strong CS program, contributing to his education score.  His career trajectory shows research experience, but lacks clear progression or industry roles, resulting in a moderate score. His experience with signal processing and machine learning in his research aligns with the job requirements, earning a decent skills score.  The lack of experience with LLMs or large neural networks directly impacts the score. His research at NASA's Johnson Space Center adds some relevance, but it's not a top tech company.  While his location is not specified, assuming he is in the US, the location score is moderate. His tenure is relatively short, impacting the score negatively.",
+      "confidence_score": 0.6,
+      "outreach_message": "Dear Daniel, I was impressed by your work on signal processing and machine learning for lung sound analysis at NASA's Johnson Space Center.  Your research background aligns well with the Software Engineer, ML Research role at Windsurf, where we're building AI-powered developer tools.  Would you be open to discussing this opportunity?"
+    },
+    {
+      "name": "Yongxin Luo",
+      "linkedin_url": "https://www.linkedin.com/in/yongxin-luo-44350637",
+      "fit_score": 4.2,
+      "score_breakdown": {
+        "education": 0.0,
+        "trajectory": 0.0,
+        "company": 7.5,
+        "skills": 0.0,
+        "location": 0.0,
+        "tenure": 0.0
+      },
+      "reasoning": "The candidate's profile lacks information on education and experience, making it difficult to assess their qualifications for the Software Engineer, ML Research role.  Their current role at Google suggests some level of software engineering experience, contributing to a Company Relevance score of 7.5. However, without details on their education, career trajectory, specific skills related to LLMs or large neural networks, and tenure, the overall fit score is low.  The lack of information significantly impacts the confidence score.",
+      "confidence_score": 0.2,
+      "outreach_message": "Hi Yongxin, I came across your profile and was impressed by your experience at Google.  Given your software engineering background, I wanted to reach out about the Software Engineer, ML Research position at Windsurf, a Forbes AI 50 company.  This role focuses on training LLMs for code generation, and I believe your skills could be a great asset to our team."
+    }
+  ],
+  "timestamp": "2025-07-01T02:30:44.936542",
+  "status": "completed",
+  "processing_time": 182.30627584457397
+}

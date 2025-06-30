@@ -1,0 +1,75 @@
+{
+  "job_id": "8349e148-5b44-4a68-8141-f25b41e25d9b",
+  "job_description": "Software Engineer, ML Research at Windsurf (Forbes AI 50 company) - \n        Building AI-powered developer tools. Looking for someone to train LLMs for code generation, \n        $140-300k + equity in Mountain View. Required: PhD in CS/ML, experience with large neural networks, \n        Python expertise, research background.",
+  "search_query_used": "Software Engineer, ML Research at Windsurf (Forbes AI 50 company)",
+  "candidates_found": 4,
+  "top_candidates": [
+    {
+      "name": "Bristy Sikder",
+      "linkedin_url": "https://www.linkedin.com/in/bristysikder",
+      "fit_score": 5.0,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 5.0,
+        "company": 5.0,
+        "skills": 5.0,
+        "location": 5.0,
+        "tenure": 5.0
+      },
+      "reasoning": "Could not analyze profile due to LLM processing error",
+      "confidence_score": 0.1,
+      "outreach_message": "Hi Bristy Sikder, I came across your profile and would love to connect!"
+    },
+    {
+      "name": "Han Ke",
+      "linkedin_url": "https://www.linkedin.com/in/han-ke-b55512a9",
+      "fit_score": 5.0,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 5.0,
+        "company": 5.0,
+        "skills": 5.0,
+        "location": 5.0,
+        "tenure": 5.0
+      },
+      "reasoning": "Could not analyze profile due to LLM processing error",
+      "confidence_score": 0.1,
+      "outreach_message": "Hi Han Ke, I came across your profile and would love to connect!"
+    },
+    {
+      "name": "Laura Pang",
+      "linkedin_url": "https://www.linkedin.com/in/laurapang",
+      "fit_score": 5.0,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 5.0,
+        "company": 5.0,
+        "skills": 5.0,
+        "location": 5.0,
+        "tenure": 5.0
+      },
+      "reasoning": "Could not analyze profile due to LLM processing error",
+      "confidence_score": 0.1,
+      "outreach_message": "Hi Laura Pang, I came across your profile and would love to connect!"
+    },
+    {
+      "name": "Ishaan Javali",
+      "linkedin_url": "https://www.linkedin.com/in/ishaanjavali",
+      "fit_score": 5.0,
+      "score_breakdown": {
+        "education": 5.0,
+        "trajectory": 5.0,
+        "company": 5.0,
+        "skills": 5.0,
+        "location": 5.0,
+        "tenure": 5.0
+      },
+      "reasoning": "Could not analyze profile due to LLM processing error",
+      "confidence_score": 0.1,
+      "outreach_message": "Hi Ishaan Javali, I came across your profile and would love to connect!"
+    }
+  ],
+  "timestamp": "2025-07-01T01:44:00.721548",
+  "status": "completed",
+  "processing_time": 90.33332920074463
+}
