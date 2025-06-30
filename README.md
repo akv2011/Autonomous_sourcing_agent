@@ -1,4 +1,4 @@
-# 🚀 LinkedIn Sourcing Agent - Synapse AI Hackathon
+# 🚀 LinkedIn Sourcing Agent -
 
 An autonomous AI-powered recruitment agent that discovers, analyzes, and creates personalized outreach for LinkedIn candidates based on job descriptions.
 
