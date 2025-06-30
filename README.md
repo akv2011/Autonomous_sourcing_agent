@@ -18,14 +18,7 @@ An autonomous AI-powered recruitment agent that discovers, analyzes, and creates
 2. **📊 Scores Candidates** - AI-powered analysis using hackathon's fit scoring rubric (1-10 scale)
 3. **💬 Generates Outreach** - Creates personalized LinkedIn messages for top candidates
 4. **⚡ Handles Scale** - Processes multiple jobs with intelligent rate limiting
-
-## 🏆 Hackathon Requirements - COMPLETED ✅
-
-### **Core Required Functions**
-- ✅ **Job Input Handling** - Accepts job descriptions through multiple endpoints
-- ✅ **Candidate Discovery** - `candidates = agent.search_linkedin(job_description)`
-- ✅ **Fit Scoring** - `scored_candidates = agent.score_candidates(candidates, job_description)`  
-- ✅ **Message Generation** - `messages = agent.generate_outreach(scored_candidates[:5])`
+5. **📚 Connection Request**: Simulates Connection Request
 
 ### **Fit Scoring Rubric Implementation**
 The agent implements the **exact** hackathon scoring criteria:
@@ -126,7 +119,7 @@ AI Analysis & Scoring → Personalized Outreach → Results Storage
 
 ## 🔧 Configuration
 
-### **Required Environment Variables**
+### **(Read synapse-agent\HOW_TO_RUN.md to get more info on where to get keys from ) Required Environment Variables**
 ```bash
 LINKEDIN_SESSION_COOKIE=your_linkedin_li_at_cookie
 GOOGLE_API_KEY=your_google_api_key
