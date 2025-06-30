@@ -183,6 +183,12 @@ curl -X POST "http://localhost:8000/run-sourcing-job-sync/" \
 3. Install dependencies: `pip install -r requirements.txt`
 4. Try enhanced start: `python start_server.py`
 
+### **Import Errors (ModuleNotFoundError)**
+If you see errors like `ModuleNotFoundError: No module named 'agent'`:
+1. Make sure you're running from the correct directory
+2. Try using the enhanced startup script: `python start_server.py`
+3. For Hugging Face deployment, the import structure has been fixed to handle multiple scenarios
+
 ### **No Candidates Found**
 - Verify LinkedIn session cookie is valid and recent
 - Check Google API quota limits in Google Cloud Console
@@ -200,6 +206,12 @@ playwright install --force chromium
 
 # Windows-specific fix
 pip install playwright --force-reinstall
+```
+
+### **Websockets Version Conflicts**
+If you encounter websockets version conflicts:
+```bash
+pip install "websockets>=13.0.0,<15.1.0"
 ```
 
 ## **📁 Project Structure**
