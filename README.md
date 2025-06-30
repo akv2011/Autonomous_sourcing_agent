@@ -1,6 +1,16 @@
-# 🚀 LinkedIn Sourcing Agent 
+# 🚀 LinkedIn Sourcing Agent - Synapse AI Hackathon
 
 An autonomous AI-powered recruitment agent that discovers, analyzes, and creates personalized outreach for LinkedIn candidates based on job descriptions.
+
+## 🌟 Live Demo - Try It Now!
+
+**🚀 No Installation Required!** The agent is live on Hugging Face Spaces:
+
+- **🖥️ Web Interface**: https://akv2011-linkedin-reach.hf.space/web
+- **📚 API Documentation**: https://akv2011-linkedin-reach.hf.space/docs
+- **💚 Health Check**: https://akv2011-linkedin-reach.hf.space/health
+
+**Ready for judging and demonstrations!**
 
 ## 🎯 What This Agent Does
 
@@ -28,6 +38,12 @@ The agent implements the **exact** hackathon scoring criteria:
 
 ## 🚀 Quick Start
 
+### **🌟 Option 1: Try Live Demo (Instant)**
+**No setup required!** Visit the live Hugging Face deployment:
+- **🌐 Web Interface**: https://akv2011-linkedin-reach.hf.space/web
+- **📚 API Docs**: https://akv2011-linkedin-reach.hf.space/docs
+
+### **🛠️ Option 2: Local Development**
 ```bash
 # 1. Install dependencies
 cd synapse-agent
@@ -40,24 +56,32 @@ cp .env.example .env  # Edit with your API keys
 # 3. Start the server
 python start_server.py
 
-# 4. Access the web interface
+# 4. Access the local interface
 # Open: http://localhost:8000/web
 ```
 
 ## 🌐 Demo & Testing
 
-### **Web Interface** 
+### **🌍 Live Hugging Face Deployment**
+**🚀 Try it now - No installation required!**
+
+- **🖥️ Web Interface**: https://akv2011-linkedin-reach.hf.space/web
+- **📚 API Documentation**: https://akv2011-linkedin-reach.hf.space/docs
+- **💚 Health Check**: https://akv2011-linkedin-reach.hf.space/health
+
+### **🏠 Local Development**
 - **URL**: http://localhost:8000/web
 - Pre-filled with Windsurf job description
 - Real-time processing display
 - Ranked candidate results with scores
 
-### **API Endpoints**
+### **API Endpoints (Available Both Local & HF)**
 - **Complete Pipeline**: `POST /run-sourcing-job-sync/`
+- **Enhanced Pipeline**: `POST /find-candidates-with-outreach/`
 - **Candidate Discovery**: `POST /search-linkedin/`
 - **Fit Scoring**: `POST /score-candidates/`
 - **Message Generation**: `POST /generate-outreach/`
-- **Interactive Docs**: http://localhost:8000/docs
+- **Interactive Docs**: `/docs` (works on both local and HF)
 
 ## 🛠️ Technical Architecture
 
@@ -111,7 +135,8 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ### **API Configuration**
-- **Base URL**: http://localhost:8000
+- **Live Demo Base URL**: https://akv2011-linkedin-reach.hf.space
+- **Local Base URL**: http://localhost:8000
 - **Rate Limiting**: Built-in delays for LinkedIn respect
 - **Background Processing**: Async job handling
 - **Error Handling**: Comprehensive fallbacks
@@ -128,9 +153,13 @@ python test_new_endpoint.py
 ```
 
 ### **Manual Testing**
-1. **Health Check**: `curl http://localhost:8000/health`
-2. **Web Interface**: Open http://localhost:8000/web
-3. **API Test**: Use interactive docs at http://localhost:8000/docs
+1. **Live Demo**: Visit https://akv2011-linkedin-reach.hf.space/web
+2. **Health Check**: 
+   - Live: https://akv2011-linkedin-reach.hf.space/health
+   - Local: `curl http://localhost:8000/health`
+3. **API Testing**: 
+   - Live: https://akv2011-linkedin-reach.hf.space/docs
+   - Local: http://localhost:8000/docs
 
 ## 🚀 Scaling Capabilities
 
@@ -173,10 +202,27 @@ python test_new_endpoint.py
 
 ## 📝 API Usage Examples
 
-### **Complete Sourcing Job**
+### **Complete Sourcing Job (Live Demo)**
 ```python
 import requests
 
+# Using the live Hugging Face deployment
+response = requests.post("https://akv2011-linkedin-reach.hf.space/run-sourcing-job-sync/", json={
+    "job_description": "Senior Python Developer with FastAPI and ML experience",
+    "max_candidates": 10
+})
+
+result = response.json()
+print(f"Found {result['candidates_found']} candidates")
+for candidate in result['top_candidates']:
+    print(f"- {candidate['name']}: {candidate['fit_score']}/10")
+```
+
+### **Complete Sourcing Job (Local)**
+```python
+import requests
+
+# Using local development server
 response = requests.post("http://localhost:8000/run-sourcing-job-sync/", json={
     "job_description": "Senior Python Developer with FastAPI and ML experience",
     "max_candidates": 10
@@ -188,33 +234,51 @@ for candidate in result['top_candidates']:
     print(f"- {candidate['name']}: {candidate['fit_score']}/10")
 ```
 
-### **Individual Components**
+### **Individual Components (Works on both Live & Local)**
 ```python
 # 1. Search LinkedIn
-search_response = requests.post("http://localhost:8000/search-linkedin/", json={
+search_response = requests.post("BASE_URL/search-linkedin/", json={
     "job_description": "Python Developer",
     "num_results": 10
 })
 
 # 2. Score Candidates  
-score_response = requests.post("http://localhost:8000/score-candidates/", json={
+score_response = requests.post("BASE_URL/score-candidates/", json={
     "candidates": search_response.json()["candidates"],
     "job_description": "Python Developer"
 })
 
 # 3. Generate Outreach
-outreach_response = requests.post("http://localhost:8000/generate-outreach/", json={
+outreach_response = requests.post("BASE_URL/generate-outreach/", json={
     "candidates": score_response.json()["scored_candidates"][:5],
     "job_description": "Python Developer"
 })
 ```
 
+**Where BASE_URL is:**
+- **Live Demo**: `https://akv2011-linkedin-reach.hf.space`
+- **Local**: `http://localhost:8000`
+
 ## 🎬 Demo Script
 
 1. **Introduction** (30s): "This is my LinkedIn Sourcing Agent for the Synapse AI Hackathon"
-2. **Web Demo** (2 mins): Show end-to-end pipeline in web interface
-3. **API Demo** (1 min): Demonstrate programmatic usage
+2. **Live Demo** (2 mins): Show end-to-end pipeline at https://akv2011-linkedin-reach.hf.space/web
+3. **API Demo** (1 min): Demonstrate programmatic usage via https://akv2011-linkedin-reach.hf.space/docs
 4. **Results** (30s): Highlight fit scores and personalized outreach
+
+## 🌐 Deployment Options
+
+### **🚀 Live Production Deployment**
+- **Platform**: Hugging Face Spaces (Docker)
+- **URL**: https://akv2011-linkedin-reach.hf.space
+- **Status**: ✅ Live and Accessible
+- **Features**: Full functionality, public API, shareable demos
+
+### **🛠️ Local Development**
+- **Platform**: Any machine with Python 3.9+
+- **URL**: http://localhost:8000
+- **Status**: ✅ Ready for development
+- **Features**: Full debugging, custom configurations
 
 ## 🏅 Hackathon Submission Checklist
 
